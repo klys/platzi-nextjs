@@ -1,12 +1,13 @@
 import React from "react";
-import Navbar from "./navbar";
+import Navbar from "./Navbar";
+import Footer from "./Footer";
 
 const Layout: React.FC = ({ children }) => {
   return (
     <div className="container">
       <Navbar />
       {children}
-      <footer>This is the footer @ 2020</footer>
+      <Footer />
     </div>
   );
 };

@@ -6,10 +6,10 @@ const Navbar = () => {
     <React.Fragment>
       <nav className="navbar is-transparent">
         <div className="navbar-brand">
-          <a className="navbar-item" href="https://bulma.io">
+          <a className="navbar-item" href="/">
             <img
-              src="logo.png"
-              alt="Bulma: a modern CSS framework based on Flexbox"
+              src="http://127.0.0.1:3000/logo.png"
+              alt="AvoShop"
               width={112}
               height={28}
             />

@@ -19,7 +19,11 @@ const Product = (props) => {
           <div className="tile is-parent">
             <article className="tile is-child box">
               <h1>{props.data.name}</h1>
-              <img src={"http://127.0.0.1:3000" + props.data.image} />
+              <img
+                src={
+                  "https://platzi-nextjs-delta.vercel.app/" + props.data.image
+                }
+              />
             </article>
           </div>
         </div>

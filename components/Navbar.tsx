@@ -8,7 +8,7 @@ const Navbar = () => {
         <div className="navbar-brand">
           <a className="navbar-item" href="/">
             <img
-              src="http://127.0.0.1:3000/logo.png"
+              src="https://platzi-nextjs-delta.vercel.app/logo.png"
               alt="AvoShop"
               width={112}
               height={28}
